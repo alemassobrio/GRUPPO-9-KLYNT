@@ -1,0 +1,30 @@
+body {
+    width: 60vw;
+    margin: auto;
+}
+
+p {
+    margin: 0;
+    padding: 0.25rem;
+}
+
+li {
+    list-style: none;
+}
+
+.mex {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.message {
+    background-color: #E5E5E5;
+}
+
+@media screen and (max-width: 900px) {
+    body {
+        width: 90vw;
+	margin-left: 0;
+    }
+}
